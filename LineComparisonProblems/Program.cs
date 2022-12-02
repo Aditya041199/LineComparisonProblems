@@ -38,9 +38,13 @@ namespace LineComparisonProblems
             {
                 Console.WriteLine("Lines Are Equal");
             }
+            else if (L1 > L2)
+            {
+                Console.WriteLine("Line1 is greater than Line2");
+            }
             else
             {
-                Console.WriteLine("Lines Are Not Equal");
+                Console.WriteLine("Line2 is greater than Line1");
             }
         }
     }
